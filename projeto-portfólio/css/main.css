@@ -8,11 +8,11 @@
 }
 body {
     margin: 0 auto;
-    background-color: #696969;
+    background-color: #DCDCDC;
 }
 /* Header*/
 .menu-principal {
-    background-color: aliceblue;
+    background-color: #1C1C1C;
     height: 80px;
 }
 
@@ -26,7 +26,7 @@ body {
     padding-top: 17px;
     margin-left: 80px;
     float: left;
-    color: #FF0000;
+    color: white;
     text-shadow: 7px 5px 4px #808080;
 
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .menu-1 a {
-    color: #1C1C1C;
+    color: white;
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
@@ -46,51 +46,144 @@ body {
 }
 
 .menu-1 a:hover {
-    color: #B8860B;
+    color: #00BFFF;
 }
 /*body*/
 .main-body {
     width: 940px;
-    height: 1500px;
+    height: 949px;
     position: relative;
     margin: 0 auto;
-    background-color: #1C1C1C;
     padding: 20px;
 
 }
 h2 {
-    color: white;
+    color: black;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 40px;
     font-size: 25px;
 }
 .container {
-    color: white;
+    color: black;
     font-size: 20px;
     width: 900px;
-    height: 1500px;
+    height: 1000px;
 
 }
-.area-destaque {
-    width: 260px
+.coluna-1 {
+    width: 260px;
 }
 .bloco-1 {
     display: inline-block;
     width: 240px;
-    height: 200px;
     overflow: hidden;
 }
 .bloco-1 img {
     height: 128px;
     border-style: solid;
     border-radius: 10px;
+    margin-top: 10px;
 }
 .bloco-1 p a {
-    color: white;
+    color: black;
     text-decoration: none;
 
 }
 .bloco-1 p a:hover {
-    color: #B8860B;
+    color: #00BFFF;
+
+}
+.hr-1{
+    width: 2px;
+    height: 700px;
+    background-color: #808080;
+    position: absolute;
+    left: -40px;
+    top: 30px;
+}
+.bloco-maior{
+    position: relative;
+    width: 560px;
+    left: 307px;
+    bottom: 773px;
+}
+.bloco-maior img{
+    width: 540px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.bloco-maior p a {
+    color: black;
+    text-decoration: none;
+}
+.bloco-maior p {
+    padding-bottom: 20px;
+}
+.bloco-maior p a:hover {
+    color: #00BFFF;
+}
+.hr-2 {
+    background-color: #808080;
+    height: 2px;
+}
+.coluna-2 {
+    width: 260px;
+    position: relative;
+    left: 309px;
+    bottom: 762px;
+
+}
+.bloco-2 {
+    display: inline-block;
+    width: 240px;
+    overflow: hidden
+}
+.bloco-2 img {
+    height: 128px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.bloco-2 p a {
+    color: black;
+    text-decoration: none;
+
+}
+.bloco-2 p a:hover {
+    color: #00BFFF;
+
+}
+.coluna-3 {
+    width: 260px;
+    position: relative;
+    left: 600px;
+    bottom: 1138px;
+
+}
+.bloco-3 {
+    display: inline-block;
+    width: 240px;
+    overflow: hidden
+}
+.bloco-3 img {
+    height: 128px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.bloco-3 p a {
+    color: black;
+    text-decoration: none;
+
+}
+.bloco-3 p a:hover {
+    color: #00BFFF;
+
+}
+.footer{
+    height: 160px;
+    background-color: #1C1C1C;
 }
