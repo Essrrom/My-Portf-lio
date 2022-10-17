@@ -3,7 +3,6 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 body {
@@ -17,8 +16,7 @@ body {
 }
 
 .main-header {
-    position: relative;
-    margin: 0 auto;
+    height: 80px;
 
 }
 
@@ -32,9 +30,11 @@ body {
 }
 
 .menu-1 {
-    margin-right: 120px;
+    width: 980px;
+    text-align: center;
     padding-top: 27px;
-    float: right;
+    margin: auto;
+    
 }
 
 .menu-1 a {
@@ -53,9 +53,17 @@ body {
     width: 940px;
     height: 949px;
     position: relative;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
 
+}
+.hr-1 {
+    width: 1px;
+    height: 940px;
+    background-color: #808080;
+    position: absolute;
+    left: 2.5px;
+    top: 2px;
 }
 h2 {
     color: black;
@@ -68,11 +76,13 @@ h2 {
     color: black;
     font-size: 20px;
     width: 900px;
-    height: 1000px;
+    height: 835px;
 
 }
 .coluna-1 {
     width: 260px;
+    position: relative;
+    left: 10px;
 }
 .bloco-1 {
     display: inline-block;
@@ -94,8 +104,8 @@ h2 {
     color: #00BFFF;
 
 }
-.hr-1{
-    width: 2px;
+.hr-2{
+    width: 1px;
     height: 700px;
     background-color: #808080;
     position: absolute;
@@ -105,8 +115,8 @@ h2 {
 .bloco-maior{
     position: relative;
     width: 560px;
-    left: 307px;
     bottom: 773px;
+    left: 345px;
 }
 .bloco-maior img{
     width: 540px;
@@ -125,15 +135,15 @@ h2 {
 .bloco-maior p a:hover {
     color: #00BFFF;
 }
-.hr-2 {
+.hr-3 {
     background-color: #808080;
-    height: 2px;
+    height: 1px;
 }
 .coluna-2 {
     width: 260px;
     position: relative;
-    left: 309px;
-    bottom: 762px;
+    left: 342px;
+    bottom: 740px;
 
 }
 .bloco-2 {
@@ -159,8 +169,8 @@ h2 {
 .coluna-3 {
     width: 260px;
     position: relative;
-    left: 600px;
-    bottom: 1138px;
+    bottom: 1118px;
+    left: 643px;
 
 }
 .bloco-3 {
@@ -183,7 +193,40 @@ h2 {
     color: #00BFFF;
 
 }
+.hr-4 {
+    width: 1px;
+    height: 940px;
+    background-color: #808080;
+    position: absolute;
+    right: 1px;
+    top: 2px;
+}
+/*footer*/
 .footer{
-    height: 160px;
+    height: 130px;
     background-color: #1C1C1C;
+}
+.container-footer{
+    width: 980px;
+    height: 130px;
+    margin: auto;
+}
+.copyright {
+    margin: auto;
+    width: 255px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+.icones {
+    width: 470px;
+    margin: auto;
+    
+}
+.icones img {
+    width: 40px;
+    height: auto;
+    margin-right: 50px;
+    margin-top: 10px;
 }
